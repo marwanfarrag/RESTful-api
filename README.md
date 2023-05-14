@@ -3,9 +3,9 @@ Made a RESTful-API using Docker.
 
 # Instructions to use.
         1- Open your preferred command prompt.
-        2- git clone https://github.com/Savoura/RESTful-api.git   	... incase you are on github.
-        3- docker pull savoura/my-api   	... incase you are on dockerhub.
-        4- cd app   	... to navigate into the app directory.
-        5- docker build -t savoura/my-api .  	... to build the image.
-        6- docker run -dp 3000:3000 savoura/my-api   	... to run the image.
-        7- use Postman for example to send REST endpoint requests to the localhost. 
+        2- git clone https://github.com/Savoura/RESTful-api.git
+        4- Open the RESTful-api directory
+        5- docker-compose up --build                                    ... To run the yml file which runs the whole app
+        6- Wait a minute or so until it runs.
+        7- Head to localhost:8000
+        8- Have fun
