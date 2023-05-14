@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   frontend:
-    build: frontAPI/.
+    build: frontend/.
     ports: 
       - "8000:8000"
     depends_on:
@@ -12,7 +12,7 @@ services:
         - api
 
   api:
-    build: backAPI/.
+    build: app/.
     ports: 
       - "3000:3000"
     healthcheck:

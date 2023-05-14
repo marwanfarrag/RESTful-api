@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cors());
 
-let person = new Person(1, "marwan","marwan@gmail.com", 20, 'M');
+let person = new Person(1, "marwan","marwan@gmail.com", 20, 'Male');
 let count = 1;
 let persons = [];
 persons.push(person);
