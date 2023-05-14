@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   frontend:
-    build: cloud_website/.
+    build: frontAPI/.
     ports: 
       - "8000:8000"
     depends_on:
@@ -12,7 +12,7 @@ services:
         - api
 
   api:
-    build: back/.
+    build: backAPI/.
     ports: 
       - "3000:3000"
     healthcheck:
