@@ -21,7 +21,7 @@ To get started, follow these steps:
 
 4. Wait a minute or so until the application starts up. Once it's ready, you can access it by visiting the following link in your web browser.
 
-        http://localhost:8000.
+        http://localhost:8000
 
 ## Features
 
